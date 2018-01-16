@@ -1,0 +1,15 @@
+server:
+  port: 80
+client:
+  id: xxxxx
+  screct: xxxx
+shop:
+  id: xxxxx
+activemq:
+  queueName: youzan
+spring:
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    in-memory: false
+    pool:
+      enabled: false
